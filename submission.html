@@ -13,24 +13,54 @@
 
 		#visualization-activity {
 			width: 600px;
-			height: 500px;
+			height: 1000px;
 		}
 
 		/* YOUR CSS CODE WILL GO HERE */
-
 
 	</style>
 </head>
 
 <body>
 	<h1 id="header-title">
-		In-Class Acitivity by REPLACE_WITH_YOUR_NAME
+		In-Class Acitivity by Luke Wonsuh Kim
 	</h1>
 
 	<svg id="visualization-activity">
-		<!-- YOUR SVG CODE WILL GO HERE -->
-
-
+        <g class="bar-with-count"
+            transform="translate(50, 50)">
+            <rect x="0" y="72" width="40" height="728" fill = 'green'/>
+            <text text-anchor="middle" x="20" y="820">홍대입구</text>
+        </g>
+        <g class="bar-with-count"
+            transform="translate(150, 50)">
+            <rect x="0" y="170" width="40" height="630" fill = 'green'/>
+            <text text-anchor="middle" x="20" y="820">잠실(송파구청)</text>
+        </g>
+        <g class="bar-with-count"
+            transform="translate(250, 50)">
+            <rect x="0" y="265" width="40" height="535" fill = 'orange'/>
+            <text text-anchor="middle" x="20" y="820">고속터미널</text>
+        </g>
+        <g class="bar-with-count"
+            transform="translate(350, 50)">
+            <rect x="0" y="394" width="40" height="406" fill = 'blue'/>
+            <text text-anchor="middle" x="20" y="820">서울역</text>
+            
+        </g>
+        <g class="bar-with-count"
+            transform="translate(450, 50)">
+            <rect x="0" y="418" width="40" height="382" fill = 'green'/>
+            <text text-anchor="middle" x="20" y="820">신림</text>
+        </g>
+        <g class="bar-with-count"
+            transform="translate(550, 50)">
+            <rect x="0" y="425" width="40" height="375" fill = 'green'/>
+            <text text-anchor="middle" x="20" y="820">신도림</text>
+        </g>
+        <rect x = '20' y = '0' height='850' width = '2' fill= 'black'/>
+        <rect x = '20' y = '850' height='2' width = '850' fill= 'black'/>
+        <text text-anchor="start" x="300" y="900">Station Name</text>
 	</svg>
 
 </body>
